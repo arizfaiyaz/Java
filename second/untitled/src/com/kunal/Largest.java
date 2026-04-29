@@ -11,15 +11,18 @@ public class Largest {
         int c = in.nextInt();
 
         // find the largest number out of the 3
-        int max = a;
-        if (b > max){
-            max = b;
-        }
-        if (c > max) {
-            max = c;
-        }
+        // 1nd way to do it
+//        int max = a;
+//        if (b > max){
+//            max = b;
+//        }
+//        if (c > max) {
+//            max = c;
+//        }
+//        System.out.println(max);
+
+        // 2rd way to do it
+        int max = Math.max(c, Math.max(a, b));
         System.out.println(max);
-
-
     }
 }
