@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        // we gonna take the input from user till user does not press x and X
+        // we are going to take the input from user till user does not press x and X
         int ans = 0;
         while(true) {
             // take the operator as input
