@@ -13,7 +13,17 @@ public class Input {
 
         }
         for (int i = 0; i < arr.length; i++){
-            System.out.print(arr[i] + " ");
+            System.out.println(arr[i] + " ");
+        }
+        for( int num : arr){
+            System.out.print(num + " ");
         }
     }
+
 }
+
+/*
+We can also print in another way and it is the way
+to do it.
+System.out.println(Arrays.toString(arr));
+ */
