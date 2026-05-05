@@ -20,7 +20,7 @@ public class MultiDimention {
                 2nd index  {4,67,77,34,22,12}
                             }
          */
-        int[][] arr = new int[3][2];
+        int[][] arr = new int[3][3];
         System.out.println(arr.length);
 
         Scanner in = new Scanner(System.in);
@@ -36,6 +36,7 @@ public class MultiDimention {
             for(int col = 0; col < arr[row].length; col++){
                 System.out.print(arr[row][col] + " ");
             }
+            System.out.println();
         }
     }
 }
