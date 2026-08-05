@@ -1,16 +1,12 @@
 package com.ariz;
 
-public class BinarySearch {
-
+public class Floor {
     public static void main(String[] args) {
         int[] arr = {-18, -12, -4, 0, 2, 4, 15, 18, 22, 45, 89};
-        int target = 22;
+        int target = 21;
         int ans = binarySearch(arr, target);
         System.out.println(ans);
     }
-
-    // return the index
-    // return -1 if it does not exist
     static int binarySearch(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
@@ -28,6 +24,6 @@ public class BinarySearch {
             }
 
         }
-        return start;
+        return end;
     }
 }
