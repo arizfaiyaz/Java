@@ -15,7 +15,7 @@ public class OrderAgnosticBS {
         // fine whether the array is sorted in ascending or descending
         boolean isAsc = arr[start] < arr[end];
 
-        while (start <= end) {
+        while (start <= end) { // for decreasing array -> (start > end)
             // find the middle element
             // int mid = (start + end)/2;
             int mid = start + (end - start) / 2;
